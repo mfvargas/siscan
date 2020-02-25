@@ -1,7 +1,7 @@
 import requests
 
 url = "http://157.245.87.38/api/ficha/List"
-token = "<TOKEN>"
+token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzOSIsInN1YiI6InNpZ2NhdGllIiwiZW1haWwiOiJtZnZhcmdhc0BnbWFpbC5jb20iLCJEZWxlZ2FjaW9uIjoiMCIsIkZpbHRlclJvdyI6IjUiLCJGaWx0ZXJWYWx1ZSI6IjAiLCJleHAiOjE2MDM5Mjk2MDAsImlzcyI6ImNhdGllLmFjLmNyIiwiYXVkIjoiY2F0aWUuYWMuY3IifQ.IP9dbnGdQLCpDJIRU-3Y7-UYYP_GsRlovplWiOJKFtU"
 
 payload = "{\n\t\n}"
 headers = {

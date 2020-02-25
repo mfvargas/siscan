@@ -11,8 +11,8 @@ escritor_lineas = csv.writer(archivo_salida, delimiter=',')
 p1 = pyproj.Proj(init='epsg:32616')
 p2 = pyproj.Proj(init='epsg:4326')
 
-pos_col_input_x = 17
-pos_col_input_y = 18
+pos_col_input_x = 9
+pos_col_input_y = 10
 
 min_x = 400000
 max_x = 1000000
