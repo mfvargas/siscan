@@ -1,5 +1,5 @@
 # Campos adicionales
-Las siguientes son las fórmulas de campos adicionales a los que provienenen de los archivos GeoJSON. Deben agregarse en cada _Feature Layer (alojado)_, en la pantalla visualización de la tabla de datos, con la opción _Agregar campo_.
+Las siguientes son las fórmulas de campos adicionales a los que provienen de los archivos GeoJSON. Deben agregarse en cada _Feature Layer (alojado)_, en la pantalla visualización de la tabla de datos, con la opción _Agregar campo_.
 
 ## Capa: Productores
 Campo: Valuemunicipio
