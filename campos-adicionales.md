@@ -24,3 +24,34 @@ IIf($feature.Keymunicipio==31, 'Condega',
 )
 )
 ```
+
+Valuetipoobra
+```terminal
+IIf($feature.Keytipoobra==1, 'Escorrentía', 
+IIf($feature.Keytipoobra==2, 'Manantial',
+IIf($feature.Keytipoobra==3, 'Techo', 
+IIf($feature.Keytipoobra==4, 'Asistencia técnica', 
+'Otro'
+)
+)
+)
+)
+```
+
+Valuesexo
+```terminal
+IIf($feature.Keysexo==1, 'Hombre', 
+IIf($feature.Keysexo==2, 'Mujer',
+'Otro'
+)
+)
+```
+
+Valueedad
+```terminal
+IIf($feature.Edad<65, 'Menor de 65', 
+IIf($feature.Edad>=65, 'De 65 o más',
+'Otro'
+)
+)
+```
