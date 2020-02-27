@@ -57,3 +57,13 @@ IIf($feature.Edad>=65, 'De 65 o más',
 )
 )
 ```
+
+## Capa: Obras
+Campo: Valueedad
+```terminal
+IIf($feature.Edad<65, 'Menor de 65', 
+IIf($feature.Edad>=65, 'De 65 o más',
+'Otro'
+)
+)
+```
