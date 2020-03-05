@@ -32,7 +32,7 @@ datos/2016_INETER_Internacional_Lin.shp
 Las tres capas se almacenaron como capas alojadas en ArcGIS Online.
 
 ### Datos de productores
-* Descarga de datos del API de Siscan
+* Se descargan los datos del API de Siscan con el comando:
 ```terminal
 $ python siscan-api-productor-list.py
 ```
