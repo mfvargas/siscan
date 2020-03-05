@@ -44,4 +44,4 @@ $ python siscan-api-productor-list.py
 $ python productor-list-wgs84-cols.py
 ```
 4. El archivo CSV resultante (```productor-list-wgs84-cols.csv```) fue convertido al formato GeoJSON, con el sistema de información geográfica de escritorio QGIS.
-5. El archivo GEOJSON resultante (```ni-cosecha-agua-productores.geojson```) se almacenó como una capa alojada en ArcGIS Online.
+5. El archivo GEOJSON resultante (```capa-productores.geojson```) se almacenó como una capa alojada en ArcGIS Online.
