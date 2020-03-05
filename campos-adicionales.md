@@ -2,7 +2,7 @@
 Las siguientes son las fórmulas de campos adicionales a los que provienen de los archivos GeoJSON. Deben agregarse en cada _Feature Layer (alojado)_, en la pantalla visualización de la tabla de datos, con la opción _Agregar campo_.
 
 ## Capa: Productores
-Campo: Valuemunicipio
+Campo: Valuemunicipio (no se está usando actualmente)
 ```terminal
 IIf($feature.Keymunicipio==10, 'Ciudad Antigua', 
 IIf($feature.Keymunicipio==5, 'Mosonte',
@@ -27,7 +27,7 @@ IIf($feature.Keymunicipio==31, 'Condega',
 )
 ```
 
-Campo: Valuetipoobra
+Campo: Valuetipoobra (no se está usando actualmente)
 ```terminal
 IIf($feature.Keytipoobra==1, 'Escorrentía', 
 IIf($feature.Keytipoobra==2, 'Manantial',
@@ -40,19 +40,22 @@ IIf($feature.Keytipoobra==4, 'Asistencia técnica',
 )
 ```
 
-Campo: Valuesexo
+
+Campo: Valueedad
 ```terminal
-IIf($feature.Keysexo==1, 'Hombre', 
-IIf($feature.Keysexo==2, 'Mujer',
+IIf($feature.Edad<30, 'Joven (menor de 30 años)', 
+IIf($feature.Edad>=30 && $feature.Edad<=59, 'Adulto (entre 30 y 59 años)',
+IIf($feature.Edad>59, 'Adulto mayor (mayor de 59 años)',
 'Otro'
+)
 )
 )
 ```
 
-Campo: Valueedad
+Campo: Valueisactivo
 ```terminal
-IIf($feature.Edad<65, 'Menor de 65', 
-IIf($feature.Edad>=65, 'De 65 o más',
+IIf($feature.Isactivo=='true', 'Activo', 
+IIf($feature.Isactivo=='false', 'Inactivo',
 'Otro'
 )
 )
