@@ -34,18 +34,18 @@ for linea in lector_lineas :
     elif (x1 != "" and y1 != ""):
         x1 = float(x1)
         y1 = float(y1)
-        if (min_x <= x1 <= max_x) and (min_y <= y1 <= max_y):
+        # if (min_x <= x1 <= max_x) and (min_y <= y1 <= max_y):
             # Caso en el que todo va bien con los datos
-            x2, y2 = pyproj.transform(p1, p2, x1, y1)
-            linea_salida.append(x2)
-            linea_salida.append(y2)
-            escritor_lineas.writerow(linea_salida)
-            print(i, x1, y1, x2, y2)            
-        else:
+        x2, y2 = pyproj.transform(p1, p2, x1, y1)
+        linea_salida.append(x2)
+        linea_salida.append(y2)
+        escritor_lineas.writerow(linea_salida)
+        print(i, x1, y1, x2, y2)            
+        # else:
             # Caso en el que los valores se salen de los rangos de la proyección de entrada
             # En el caso de Siscan, hay valores de WGS84 en las columnas de UTM 16N
             # y, en algunos casos, los valores de x, y están invertidos
-            pass
+        #     pass
 
     else:
         # Caso en el que el valor de entrada de x o de y están vacíos
