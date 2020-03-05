@@ -1,7 +1,9 @@
 # Procesamiento
 
-## Capas en formatos geoespaciales
-### Descompresión
+## Importación de capas a ArcGIS Online
+
+### Capas en formatos geoespaciales
+#### Descompresión
 ```terminal
 $ cd datos
 $ unzip 2016_INETER_DPA_Municipios.zip
@@ -10,7 +12,7 @@ $ unzip LIM_COM_INETER_2016_Code.zip
 $ cd ..
 ```
 
-### Filtrado y conversión al formato GEOJSON
+#### Filtrado y conversión al formato GEOJSON
 ```terminal
 # Municipios
 $ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 \
@@ -31,7 +33,7 @@ datos/2016_INETER_Internacional_Lin.shp
 ```
 Las tres capas se almacenaron como capas alojadas en ArcGIS Online.
 
-## Datos de productores
+### Datos de productores
 1. Se descargan los datos del API de Siscan con el comando:
 ```terminal
 $ python siscan-api-productor-list.py
