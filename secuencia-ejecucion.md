@@ -21,7 +21,7 @@ datos/2016_INETER_DPA_Municipios.shp
 # Comunidades
 $ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 \
 -where "municipio='Ciudad Antigua' OR municipio='Mozonte' OR municipio='Totogalpa' OR municipio='Telpaneca' OR municipio='Palacaguina' OR municipio='Yalaguina' OR municipio='Somoto' OR municipio='San Lucas' OR municipio='Pueblo Nuevo' OR municipio='Condega'" \
-capa-municipios.geojson \
+capa-comunidades.geojson \
 datos/LIM_COM_INETER_2016_Code.shp
 
 # Límite nacional
