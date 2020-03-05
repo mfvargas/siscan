@@ -1,6 +1,6 @@
 # Procesamiento
 
-## Capas geoespaciales
+## Capas en formatos geoespaciales
 ### Descompresión de las capas geoespaciales
 ```terminal
 $ cd datos
@@ -36,6 +36,10 @@ Las tres capas se almacenaron como capas alojadas en ArcGIS Online.
 ```terminal
 $ python siscan-api-productor-list.py
 ```
+(**DEBE ASIGNARSE EL VALOR DEL TOKEN DEL API EN LA VARIABLE CORRESPONDIENTE DEL SCRIPT**)
 
-* El archivo JSON resultante (```siscan-api-productor-list.json```) se procesa en el sitio [http://www.convertcsv.com/json-to-csv.htm](http://www.convertcsv.com/json-to-csv.htm) desde donde se genera el archivo CSV ```siscan-api-productor-list.csv```
-* 
+* El archivo JSON resultante (```siscan-api-productor-list.json```) se procesa en el sitio [http://www.convertcsv.com/json-to-csv.htm](http://www.convertcsv.com/json-to-csv.htm) desde donde se genera el archivo CSV ```siscan-api-productor-list.csv``` (**DEBE HABILITARSE LA OPCIÓN _Suppress Line Breaks in Fields_**)
+* Se generan las columnas con coordenadas WGS84:
+```terminal
+$ python productor-list-wgs84-cols.py
+```
