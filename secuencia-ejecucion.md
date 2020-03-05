@@ -29,3 +29,13 @@ $ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 \
 capa-limite_nicaragua.geojson \
 datos/2016_INETER_Internacional_Lin.shp
 ```
+Las tres capas se almacenaron como capas alojadas en ArcGIS Online.
+
+### Datos de productores
+Descarga de datos del API de Siscan
+```terminal
+$ python siscan-api-productor-list.py
+```
+
+* El archivo JSON resultante (```siscan-api-productor-list.json```) se procesa en el sitio [http://www.convertcsv.com/json-to-csv.htm](http://www.convertcsv.com/json-to-csv.htm) desde donde se genera el archivo CSV ```siscan-api-productor-list.csv```
+* 
