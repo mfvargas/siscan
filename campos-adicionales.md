@@ -60,6 +60,14 @@ IIf($feature.Isactivo=='false', 'Inactivo',
 )
 )
 ```
+Campo: ValueFiit
+```terminal
+IIf($feature.Fiit=='true', 'Sí', 
+IIf($feature.Fiit=='false', 'No',
+'No'
+)
+)
+```
 
 ## Capa: Obras
 Campo: Valueedad
