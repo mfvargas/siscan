@@ -26,5 +26,7 @@ capa-municipios.geojson \
 datos/LIM_COM_INETER_2016_Code.shp
 
 # Límite nacional
-$ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 capa-limite_nicaragua.geojson datos/2016_INETER_Internacional_Lin.shp
+$ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 \
+capa-limite_nicaragua.geojson \
+datos/2016_INETER_Internacional_Lin.shp
 ```
