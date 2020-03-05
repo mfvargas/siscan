@@ -7,7 +7,6 @@ $ cd datos
 $ unzip 2016_INETER_DPA_Municipios.zip
 $ unzip 2016_INETER_Internacional_Lin.zip
 $ unzip LIM_COM_INETER_2016_Code.zip
-$ unzip nomenclator.zip
 $ cd ..
 ```
 
