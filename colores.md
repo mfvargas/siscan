@@ -10,7 +10,7 @@ Asistencia técnica	#149ece
 
 Tipos de obra construída (obra)
 ```terminal
-Escorrentía	#ed5151
+Escorrentía #ed5151
 Tanque Zamorano #149ece
-Pila de concreto #9e559c
+Pila de concreto  #9e559c
 ```
