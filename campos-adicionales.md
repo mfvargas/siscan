@@ -72,9 +72,10 @@ IIf($feature.Fiit=='false', 'No',
 ## Capa: Obras
 Campo: Valueedad
 ```terminal
-IIf($feature.Edad<65, 'Menor de 65', 
-IIf($feature.Edad>=65, 'De 65 o más',
+IIf($feature.Edad<30, 'Joven (menor de 30 años)', 
+IIf($feature.Edad>=30 && $feature.Edad<=59, 'Adulto (entre 30 y 59 años)',
+IIf($feature.Edad>59, 'Adulto mayor (mayor de 59 años)',
 'Otro'
 )
 )
-```
+)
