@@ -26,10 +26,11 @@ $ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 \
 capa-comunidades.geojson \
 datos/LIM_COM_INETER_2016_Code.shp
 
-# Límite nacional
+# Límite internacional
+# El archivo suministrado por la coordinación del proyecto (2016_INETER_Internacional_Lin.shp) presentó problemas al momento de subirse a ArcGIS Online, por lo que se utilizó el disponible en https://gadm.org
 $ ogr2ogr -f "GeoJSON" -t_srs EPSG:4326 \
 capa-limite_nicaragua.geojson \
-datos/2016_INETER_Internacional_Lin.shp
+datos/gadm36_NIC_0.shp
 ```
 Las tres capas se almacenaron como capas alojadas en ArcGIS Online.
 
