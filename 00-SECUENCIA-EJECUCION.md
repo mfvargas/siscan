@@ -63,3 +63,6 @@ $ python obra-list-wgs84-cols.py
 ```
 4. El archivo CSV resultante (```obra-list-wgs84-cols.csv```) fue convertido al formato GeoJSON, con el sistema de información geográfica de escritorio QGIS.
 5. El archivo GEOJSON resultante (```capa-obras.geojson```) se almacenó como una capa alojada en ArcGIS Online.
+
+## Campos adicionales
+Deben agregarse los campos que se especifican en [https://github.com/mfvargas/siscan/blob/master/campos-adicionales.md](https://github.com/mfvargas/siscan/blob/master/campos-adicionales.md).
