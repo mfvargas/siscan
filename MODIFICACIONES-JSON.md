@@ -25,8 +25,8 @@ Zoom al mapa desde la lista de municipios
                         },
 ```
 
-```terminal
 Filtro en lista de municipios por la capa de productores
+```terminal
                         {
                             "type": "filter",
                             "by": "whereClause",
@@ -40,8 +40,8 @@ Filtro en lista de municipios por la capa de productores
                         }
 ```                        
 
+Filtro en lista de municipios por la capa de municipios
 ```terminal
-Filtro en lista de municipios por la capa de municipios:
                         {
                             "type": "filter",
                             "by": "whereClause",
@@ -49,8 +49,8 @@ Filtro en lista de municipios por la capa de municipios:
                         }
 ```                        
 
+Los dos filtros anteriores
 ```terminal
-Los dos filtros anteriores:
                         {
                             "type": "filter",
                             "by": "whereClause",
