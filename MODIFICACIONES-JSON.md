@@ -69,3 +69,9 @@ Los dos filtros anteriores
                             "targetId": "0bc33a5c-1a47-4232-80f5-b6c508bc7b0c#Capa_de_municipios_5083"
                         }  
 ```
+
+## Selector de municipios
+### Acciones (_events_)
+
+```terminal
+```
