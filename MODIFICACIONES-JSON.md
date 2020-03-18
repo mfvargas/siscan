@@ -16,6 +16,7 @@ Capa de municipios
 0bc33a5c-1a47-4232-80f5-b6c508bc7b0c#Capa_de_municipios_5083
 ```
 
+## Filtros
 ```terminal
 Zoom al mapa desde la lista de municipios
                         {
@@ -24,7 +25,6 @@ Zoom al mapa desde la lista de municipios
                         },
 ```
 
-## Filtros
 ```terminal
 Filtro en lista de municipios por la capa de productores
                         {
