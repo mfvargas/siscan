@@ -74,15 +74,15 @@ Los dos filtros anteriores
 ### Acciones (_events_)
 
 ```terminal
-                        {
-                            "type": "filter",
-                            "by": "whereClause",
-                            "fieldMap": [
-                                {
-                                    "sourceName": "Municipio",
-                                    "targetName": "muni"
-                                }
-                            ],
-                            "targetId": "0bc33a5c-1a47-4232-80f5-b6c508bc7b0c#Capa_de_municipios_5083"
-                        },
+                            {
+                                "type": "filter",
+                                "by": "whereClause",
+                                "fieldMap": [
+                                    {
+                                        "sourceName": "Municipio",
+                                        "targetName": "muni"
+                                    }
+                                ],
+                                "targetId": "0bc33a5c-1a47-4232-80f5-b6c508bc7b0c#Capa_de_municipios_5083"
+                            },     
 ```
