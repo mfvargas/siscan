@@ -1,5 +1,6 @@
 # Tablero de control de productores - para municipios
 
+## ID de objetos
 Mapa
 ```terminal
 0bc33a5c-1a47-4232-80f5-b6c508bc7b0c
@@ -23,6 +24,7 @@ Zoom al mapa desde la lista de municipios
                         },
 ```
 
+## Filtros
 ```terminal
 Filtro en lista de municipios por la capa de productores
                         {
