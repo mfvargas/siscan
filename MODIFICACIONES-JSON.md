@@ -1,3 +1,5 @@
+**NOTA**: de momento, no se están editando los archivos JSON de los tableros, pero se dejan estos ejemplos como referencia.
+
 # Tablero de control de productores - para municipios ("id": "10327b2d320d4a0b8e950e19ec546d67")
 
 ## IDs de objetos del tablero
