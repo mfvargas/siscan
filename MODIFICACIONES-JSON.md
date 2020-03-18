@@ -17,8 +17,8 @@ Capa de municipios
 ```
 
 ## Filtros
-```terminal
 Zoom al mapa desde la lista de municipios
+```terminal
                         {
                             "type": "zoom",
                             "targetId": "0bc33a5c-1a47-4232-80f5-b6c508bc7b0c"
