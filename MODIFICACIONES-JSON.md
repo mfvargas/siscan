@@ -1,6 +1,6 @@
 # Tablero de control de productores - para municipios ("id": "10327b2d320d4a0b8e950e19ec546d67")
 
-## ID de objetos
+## IDs de objetos del tablero
 Mapa
 ```terminal
 0bc33a5c-1a47-4232-80f5-b6c508bc7b0c
@@ -16,8 +16,8 @@ Capa de municipios
 0bc33a5c-1a47-4232-80f5-b6c508bc7b0c#Capa_de_municipios_5083
 ```
 
-## Filtros
-Zoom al mapa desde la lista de municipios
+## Acciones (_events_)
+Zoom al mapa
 ```terminal
                         {
                             "type": "zoom",
@@ -25,7 +25,7 @@ Zoom al mapa desde la lista de municipios
                         },
 ```
 
-Filtro en lista de municipios por la capa de productores
+Filtrado de la capa de productores con base en el nombre del municipio en la capa de municipios
 ```terminal
                         {
                             "type": "filter",
@@ -40,7 +40,7 @@ Filtro en lista de municipios por la capa de productores
                         }
 ```                        
 
-Filtro en lista de municipios por la capa de municipios
+Filtrado de la capa de municipios con base en el nombre del municipio en la capa de municipios
 ```terminal
                         {
                             "type": "filter",
