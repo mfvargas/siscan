@@ -1,2 +1,2 @@
-# Muncipios
+# Municipios
 "Mosonte" --> "Mozonte"
